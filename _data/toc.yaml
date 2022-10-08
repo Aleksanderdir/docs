@@ -1270,6 +1270,8 @@ manuals:
           title: Docker Desktop WSL 2 backend on Windows
         - path: /desktop/vm-vdi/
           title: Run Docker Desktop for Windows in a VM or VDI environment
+        - path: /desktop/uninstall/
+          title: Uninstall Docker Desktop
     - sectiontitle: Dev Environments (Beta)
       section:
         - path: /desktop/dev-environments/
@@ -1796,6 +1798,8 @@ contribute:
       title: Call outs
     - path: /contribute/components/cards/
       title: Cards
+    - path: /contribute/components/code-blocks/
+      title: Code blocks
     - path: /contribute/components/images/
       title: Images
     - path: /contribute/components/links/
