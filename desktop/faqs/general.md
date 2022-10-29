@@ -56,8 +56,8 @@ This includes:
 - [Vulnerability scanning](../../docker-hub/vulnerability-scanning.md)
 - Viewing remote images in the Docker Dashboard
 - Settting up [Dev Environments](../dev-environments/index.md)
-- Docker build when using [Buildkit](../../develop/develop-images/build_enhancements.md). You can work around this by disabling
-  BuildKit. Run `DOCKER_BUILDKIT=0 docker build .` to disable BuildKit.
+- Docker build when using [BuildKit](../../build/buildkit/index.md#getting-started).
+  You can work around this by disabling BuildKit. Run `DOCKER_BUILDKIT=0 docker build .` to disable BuildKit.
 - Deploying an app to the cloud through Compose
   [ACI](../../cloud/aci-integration.md) and [ECS](../../cloud/ecs-integration.md)
   integrations
@@ -73,7 +73,8 @@ You can find information about diagnosing and troubleshooting common issues in t
 
 If you do not find a solution in troubleshooting, browse the Github repositories or create a new issue:
 
-- [docker/for-mac](https://github.com/docker/for-mac/issues){: target="_blank" rel="noopener" class="_"} - - [docker/for-win](https://github.com/docker/for-win/issues){: target="_blank" rel="noopener" class="_"}
+- [docker/for-mac](https://github.com/docker/for-mac/issues){: target="_blank" rel="noopener" class="_"} 
+- [docker/for-win](https://github.com/docker/for-win/issues){: target="_blank" rel="noopener" class="_"}
 - [docker/for-linux](https://github.com/docker/for-linux/issues){: target="_blank" rel="noopener" class="_"}
 
 ### How do I connect to the remote Docker Engine API?
